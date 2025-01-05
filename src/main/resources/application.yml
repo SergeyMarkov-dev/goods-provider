@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: native
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: file:///C:/project/configs
+
+server:
+  port: 8888
